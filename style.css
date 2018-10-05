@@ -73,8 +73,8 @@ hr {
   vertical-align: top;
   display: inline-block;
   margin: 48px;
-  width: 250px;
-  height: 350px;
+  width: 200px;
+  height: 300px;
   font-family: 'Playfair Display', serif;
   background-color: white;
   border: 1px solid darkslategray;
@@ -84,11 +84,12 @@ hr {
 }
 
 .card img {
-  width: 250px;
-  height: 150px;
+  width: 200px;
+  height: 133px;
 }
 
-.card h2 {
+.card h3 {
+  font-size: 1.5em;
   text-align: center;
   color: black;
 }
