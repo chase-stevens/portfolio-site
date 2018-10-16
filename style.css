@@ -13,7 +13,7 @@ html, body {
 }
 
 .bg {
-  background-image: url(images/tree.jpg);
+  background-image: url(images-small/tree.jpg);
   height: 75%;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,8 +53,8 @@ a {
 
 .title {
   position: relative;
-  top: 45%;
-  left: 25%;
+  top: 50%;
+  left: 28%;
   width: 50%;
   animation: fadein 1.3s;
   -moz-animation: fadein 1.3s; /* Firefox */
@@ -187,12 +187,12 @@ color: #C0C0C0;
 /* TODO: Add fadein for second h2 */
 @keyframes fadein {
   from {
-    top: 50%;
+    top: 65%;
     opacity: 0;
   }
 
   to {
-    top: 35%;
+    top: 50%;
     opacity: 1;
   }
 }
