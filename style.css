@@ -22,6 +22,7 @@ html, body {
 h1, h2 {
   text-align: left;
   margin-top: 0;
+  font-weight: 200;
   /* text-shadow: 2px 4px 3px rgba(0,0,0,0.4),
                4px 8px 13px rgba(0,0,0,0.1),
                9px 18px 23px rgba(0,0,0,0.1); */
@@ -57,16 +58,23 @@ hr {
 }
 
 .intro-para {
+  font-weight: 400;
   position: relative;
   text-align: right;
   font-size: 1em;
-  width: 50%;
+  width: 75%;
   float: right;
 }
 
 .container {
   width: 100%;
   text-align: center;
+}
+
+.work-header {
+  text-align: center;
+  color: dimgray;
+  margin-bottom: 0;
 }
 
 .card {
@@ -103,25 +111,71 @@ hr {
   font-size: 0.9em;
 }
 
+.social-links {
+
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 32px;
+  overflow: auto;
+}
+
+.social-link {
+  color: #818181;
+  float: left;
+  padding: 5px ;
+  margin: 0;
+}
+
+.social-link :hover {
+color: #A8A8A8;
+}
+
+.contact-container {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  /*background-image: linear-gradient( 135deg, #F6D242 10%, #FF52E5 100%);*/
+  background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%);
+
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.contact-form {
+  position: relative;
+  top: 10%;
+}
+
+.contact-container .btn-holder {
+  display: flex;
+}
+
 .my-button {
 	background-color: deeppink;
-	-moz-border-radius:15px;
-	-webkit-border-radius:15px;
-	border-radius:15px;
-	border: none;
-	display:inline-block;
-	cursor:pointer;
 	color: white;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
+  padding: 14px 28px;
+	font-size: 24px;
+	text-decoration: none;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
 }
+
 .my-button:hover {
 	background-color: hotpink;
-}
-.my-button:active {
-	position:relative;
-	top:1px;
 }
 
 /* TODO: Add fadein for second h2 */
