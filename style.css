@@ -64,13 +64,23 @@ a {
                9px 18px 23px rgba(0,0,0,0.1); */
 }
 
-.intro-para {
-  font-weight: 400;
-  position: relative;
-  text-align: right;
-  font-size: 1em;
-  width: 75%;
-  float: right;
+.social-links {
+  position: fixed;
+  text-decoration: none;
+  font-size: 30px;
+  left: 0.5%;
+  overflow: auto;
+}
+
+.social-link {
+  color: #696969;
+  float: left;
+  padding: 5px ;
+  margin: 0;
+}
+
+.social-link :hover {
+color: #C0C0C0;
 }
 
 .about-me {
@@ -84,18 +94,8 @@ a {
   height: auto;
 }
 
-.skills div {
-  width: 200px;
-  display: inline-block;
-  vertical-align: top;
-}
-
 .about-me .fas, .about-me .far {
   font-size: 4em;
-}
-
-.about-me h3 {
-  margin: 0.5em 0 0.25em 0;
 }
 
 .about-me ul {
@@ -103,6 +103,20 @@ a {
   list-style: none;
   margin: 0 auto 1em auto;
   padding: 0;
+}
+
+.skills {
+  margin-top: 2.5%;
+}
+
+.skills div {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.skills h3 {
+  margin-bottom: 0.125em;
 }
 
 .languages .far, .languages h3 {
@@ -165,25 +179,6 @@ a {
   font-size: 0.9em;
 }
 
-.social-links {
-  position: fixed;
-  text-decoration: none;
-  font-size: 24px;
-  left: 0.5%;
-  overflow: auto;
-}
-
-.social-link {
-  color: #696969;
-  float: left;
-  padding: 5px ;
-  margin: 0;
-}
-
-.social-link :hover {
-color: #C0C0C0;
-}
-
 .footer {
   right: 0;
   bottom: 0;
@@ -208,55 +203,6 @@ color: #C0C0C0;
   cursor: pointer;
 }
 
-.contact-container {
-  text-align: center;
-  width: 100%;
-  height: 50%;
-  /*background-image: linear-gradient( 135deg, #F6D242 10%, #FF52E5 100%);*/
-  background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%);
-
-  justify-content: space-between;
-  flex-direction: column;
-  display: flex;
-}
-
-.contact-container h2 {
-  text-align: center;
-  margin: 0;
-  color: white;
-}
-
-.contact-form {
-  position: relative;
-  top: 25%;
-}
-
-.contact-container .btn-holder {
-  display: flex;
-}
-
-.my-button {
-	background-color: deeppink;
-	color: white;
-  padding: 14px 28px;
-	font-size: 24px;
-	text-decoration: none;
-
-  border-radius: 15px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border: none;
-
-  cursor: pointer;
-  position: relative;
-  margin: 0 auto;
-  margin-top: 1em;
-}
-
-.my-button:hover {
-	background-color: hotpink;
-}
-
 /* TODO: Add fadein for second h2 */
 @keyframes fadein {
   from {
@@ -272,9 +218,7 @@ color: #C0C0C0;
 
 @media only screen and (max-width: 800px) {
     .title {
-      width: 66%;
-    }
-    .intro-para {
-      width: 50%;
+      width: 100%;
+      left: 0;
     }
 }
