@@ -135,6 +135,7 @@ color: #C0C0C0;
   width: 100%;
   text-align: center;
   background-color: rgb(244, 245, 249);
+    border-bottom: 2px solid cadetblue;
 }
 
 .work-header {
