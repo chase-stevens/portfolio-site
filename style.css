@@ -75,7 +75,7 @@ a {
 .social-link {
   color: #696969;
   float: left;
-  padding: 5px ;
+  padding: 6px ;
   margin: 0;
 }
 
@@ -204,7 +204,6 @@ color: #C0C0C0;
   cursor: pointer;
 }
 
-/* TODO: Add fadein for second h2 */
 @keyframes fadein {
   from {
     top: 65%;
