@@ -119,6 +119,10 @@ color: #C0C0C0;
   margin-bottom: 0.125em;
 }
 
+.skills li {
+  margin-bottom: 0.125em;
+}
+
 .languages .far, .languages h3 {
   color: cadetblue;
 }
